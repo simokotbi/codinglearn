@@ -1,11 +1,11 @@
 #container {
   text-align: center;
 
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  // position: absolute;
+  // left: 0;
+  // right: 0;
+  // top: 50%;
+  // transform: translateY(-50%);
 }
 
 #container strong {
@@ -17,11 +17,62 @@
   font-size: 16px;
   line-height: 22px;
 
-  color: #8c8c8c;
+  color: #a2fd92;
 
   margin: 0;
 }
 
 #container a {
   text-decoration: none;
+}
+ion-content{
+  // --background: url('../../assets/imgs/card-hero.jpg') no-repeat center/cover fixed;
+}
+ion-col{
+  position: relative;
+  text-align: center;
+  
+}
+
+ion-col h2{
+  width: 100%;
+  font-size: 24px;
+  font-weight: bold;
+  background: linear-gradient(121.57deg, #000000 18.77%, rgba(90, 90, 90, 0.66) 60.15%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.hero{
+  margin-bottom: 60px;
+  
+}.hero img{
+  box-shadow: 0 4px 14px 0 rgb(0 0 0 / 10%);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10%;
+}
+.hero h1{
+  position: absolute;
+  top: 40px;
+  left: 20px;
+  font-size: 2.0em;
+  width: 100%;
+  font-weight: bold;
+  background: linear-gradient(121.57deg, #000000 18.77%, rgba(131, 133, 132, 0.66) 60.15%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+#card{
+  box-shadow: 0 4px 14px 0 rgb(0 0 0 / 10%);
+}
+#card img{
+ 
+  object-fit: cover;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+ 
+  
 }
