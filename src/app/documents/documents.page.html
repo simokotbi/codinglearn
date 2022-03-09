@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>documents</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<ion-list  *ngFor="let doc of document">
+  <ion-item>
+    <ion-avatar slot="start">
+      <img src={{doc.imageurl}} alt="">
+    </ion-avatar>
+    <ion-label>{{doc.title}}</ion-label>
+  </ion-item>
+</ion-list>
+</ion-content>
